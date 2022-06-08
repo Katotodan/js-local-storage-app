@@ -41,6 +41,7 @@ aside{
     margin: 0 auto ;
     width: 70%;
     margin-top: 2rem;
+    margin-bottom: 3rem;
 
 }
 aside h3{
@@ -57,6 +58,21 @@ aside div:last-child{
 }
 aside p{
     padding: 0.3rem;
+}
+aside output{
+    position: absolute;
+    top: 0;
+    z-index: 4444444444;
+    right: 0;
+}
+.clean{
+    display: block;
+    position: initial;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background-color: red;
+    color: white;
+
 }
 
 @media screen and (max-width : 1194px) {
